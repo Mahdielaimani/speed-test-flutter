@@ -1,0 +1,33 @@
+name: internet_speed
+description: A simple internet speed test app.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  syncfusion_flutter_gauges: ^20.2.43
+  flutter_riverpod: ^1.0.4
+  lottie: ^1.4.1
+  flutter_speedtest: ^0.0.3+3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
